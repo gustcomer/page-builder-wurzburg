@@ -4,6 +4,7 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: pagebuilder_wurzburg
     ports:
       - "3306:3306"
     volumes:
